@@ -8,10 +8,13 @@ const Footer = () =>    {
             <span>Fernando Sangopanta</span> 
             <span>Software Engennering Student at EPN </span>
             <div className='iconos'>
-            <a href='https://www.facebook.com/fernando.sangopanta.714' target='blank' ><AiOutlineFacebook className='icon'></AiOutlineFacebook></a>
-            <a href='https://twitter.com/Fernand95410668' target='blank'><AiOutlineTwitter className='icon'></AiOutlineTwitter></a>
-            <a href='https://github.com/Fernando473' target='blank'><AiOutlineGithub className='icon'></AiOutlineGithub></a>
-            <a href='https://www.instagram.com/jhonfer1999/' target='blank'><AiOutlineInstagram className='icon'></AiOutlineInstagram></a>
+            <div className="container-icon">
+                <a href='https://www.facebook.com/fernando.sangopanta.714' target='blank' ><AiOutlineFacebook className='icon'></AiOutlineFacebook></a>
+                <a href='https://twitter.com/Fernand95410668' target='blank'><AiOutlineTwitter className='icon'></AiOutlineTwitter></a>
+                <a href='https://github.com/Fernando473' target='blank'><AiOutlineGithub className='icon'></AiOutlineGithub></a>
+                <a href='https://www.instagram.com/jhonfer1999/' target='blank'><AiOutlineInstagram className='icon'></AiOutlineInstagram></a>
+            </div>
+
             </div>
       </footer>
     )

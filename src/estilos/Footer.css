@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 footer{
     background-color: #16213E;
     font-family: Roboto, sans-serif;
@@ -13,16 +16,31 @@ footer{
   }
   
   span{
-    margin: 5px;
+    position: relative;
   }
   .contenedorInformacion{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
   }
+  .container-icon{
+    display: flex;
+    min-width: 150px;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 40px;
+    
+  }
+
   .icon{
-    margin: 5px;
-    width: 30px;
-    height: 30px;
-    color: #F9F9F9;
+    color: white;
+    width: 25px;
+    height: 25px;
+  }
+ 
+  .icon:hover{
+    width: 35px;
+    height: 35px;
+    padding: 0px 2px;
   }
