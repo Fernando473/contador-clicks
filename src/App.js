@@ -4,6 +4,7 @@ import freeCodeCampLogo from "../src/imagenes/freeCodeCampLogo.png"
 import Boton from './componentes/Boton';
 import Contador from './componentes/Contador';
 import { useState } from 'react'
+import { FaBeer  } from "react-icons/fa"
 
 function App() {
 
@@ -38,7 +39,12 @@ function App() {
           manejarClick={reiniciarContador} >
         </Boton>
       </div>
-      <footer>Derechos reservados</footer>
+      <footer> 
+        <FaBeer ></FaBeer >
+        <span>Fernando Sangopanta</span> 
+        <span>Software Engennering Student </span>
+        <FaBeer ></FaBeer >
+      </footer>
     </div>
 
   );
