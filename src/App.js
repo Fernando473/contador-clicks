@@ -38,6 +38,7 @@ function App() {
           manejarClick={reiniciarContador} >
         </Boton>
       </div>
+      <footer>Derechos reservados</footer>
     </div>
 
   );
